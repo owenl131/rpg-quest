@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{18C8D354-3BA0-4583-AB07-FF380DDF5464}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AhLongAttack.cs" />
+     <Compile Include="Assets\Scripts\AhLongCollision.cs" />
+     <Compile Include="Assets\Scripts\AhLongMovement1.cs" />
+     <Compile Include="Assets\Scripts\BGMScript.cs" />
+     <Compile Include="Assets\Scripts\BackButton.cs" />
+     <Compile Include="Assets\Scripts\BankMoney.cs" />
+     <Compile Include="Assets\Scripts\BasicCameraFollow.cs" />
+     <Compile Include="Assets\Scripts\BossAhLongAttack.cs" />
+     <Compile Include="Assets\Scripts\BossAhLongMovement.cs" />
+     <Compile Include="Assets\Scripts\BossHealthBar.cs" />
+     <Compile Include="Assets\Scripts\BossOfficeTriggers.cs" />
+     <Compile Include="Assets\Scripts\BossPlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\BossStoneController.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow3D.cs" />
+     <Compile Include="Assets\Scripts\CasinoNPCs.cs" />
+     <Compile Include="Assets\Scripts\CasinoReceptionist.cs" />
+     <Compile Include="Assets\Scripts\ClaimMoney.cs" />
+     <Compile Include="Assets\Scripts\Close4DButton.cs" />
+     <Compile Include="Assets\Scripts\CloseComputerButton.cs" />
+     <Compile Include="Assets\Scripts\CloseSlotMachineButton.cs" />
+     <Compile Include="Assets\Scripts\CloseTVButton.cs" />
+     <Compile Include="Assets\Scripts\ComputerData.cs" />
+     <Compile Include="Assets\Scripts\CreditsButton.cs" />
+     <Compile Include="Assets\Scripts\DayCounter.cs" />
+     <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\DoorSFX.cs" />
+     <Compile Include="Assets\Scripts\EndGameController.cs" />
+     <Compile Include="Assets\Scripts\EndQuest.cs" />
+     <Compile Include="Assets\Scripts\ExitForest.cs" />
+     <Compile Include="Assets\Scripts\GameProperties.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\HelpButton.cs" />
+     <Compile Include="Assets\Scripts\Instructions.cs" />
+     <Compile Include="Assets\Scripts\LevelTrack.cs" />
+     <Compile Include="Assets\Scripts\MoneyCounter.cs" />
+     <Compile Include="Assets\Scripts\MoneyUpDown4D.cs" />
+     <Compile Include="Assets\Scripts\MoveToPlayer.cs" />
+     <Compile Include="Assets\Scripts\MoveToPoint1.cs" />
+     <Compile Include="Assets\Scripts\MoveToPoint2.cs" />
+     <Compile Include="Assets\Scripts\MoveToRegion.cs" />
+     <Compile Include="Assets\Scripts\MultipleQuests.cs" />
+     <Compile Include="Assets\Scripts\MumNPC.cs" />
+     <Compile Include="Assets\Scripts\NPCMovement.cs" />
+     <Compile Include="Assets\Scripts\NextButton.cs" />
+     <Compile Include="Assets\Scripts\Notes.cs" />
+     <Compile Include="Assets\Scripts\OfficeToCC.cs" />
+     <Compile Include="Assets\Scripts\OkayButton4D.cs" />
+     <Compile Include="Assets\Scripts\OnLevelLoad.cs" />
+     <Compile Include="Assets\Scripts\OpenTV.cs" />
+     <Compile Include="Assets\Scripts\PhoneButton.cs" />
+     <Compile Include="Assets\Scripts\PhoneIcon.cs" />
+     <Compile Include="Assets\Scripts\PhoneIconX.cs" />
+     <Compile Include="Assets\Scripts\PhoneMapSetter.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement3D.cs" />
+     <Compile Include="Assets\Scripts\Poster.cs" />
+     <Compile Include="Assets\Scripts\Quest10Arrow.cs" />
+     <Compile Include="Assets\Scripts\Quest10Character.cs" />
+     <Compile Include="Assets\Scripts\Quest10Controller.cs" />
+     <Compile Include="Assets\Scripts\Quest10Object.cs" />
+     <Compile Include="Assets\Scripts\Quest1Character.cs" />
+     <Compile Include="Assets\Scripts\Quest2Character.cs" />
+     <Compile Include="Assets\Scripts\Quest3Character.cs" />
+     <Compile Include="Assets\Scripts\Quest4Character.cs" />
+     <Compile Include="Assets\Scripts\Quest5Bins.cs" />
+     <Compile Include="Assets\Scripts\Quest5Character.cs" />
+     <Compile Include="Assets\Scripts\Quest5Controller.cs" />
+     <Compile Include="Assets\Scripts\Quest6Character.cs" />
+     <Compile Include="Assets\Scripts\Quest7Controller.cs" />
+     <Compile Include="Assets\Scripts\Quest7RangeSphere.cs" />
+     <Compile Include="Assets\Scripts\Quest8Controller.cs" />
+     <Compile Include="Assets\Scripts\Quest9Character.cs" />
+     <Compile Include="Assets\Scripts\QuestController.cs" />
+     <Compile Include="Assets\Scripts\QuestManager.cs" />
+     <Compile Include="Assets\Scripts\QuestStatus.cs" />
+     <Compile Include="Assets\Scripts\ReceptionistInteract.cs" />
+     <Compile Include="Assets\Scripts\ScreenFader.cs" />
+     <Compile Include="Assets\Scripts\SelectQuest.cs" />
+     <Compile Include="Assets\Scripts\Selection.cs" />
+     <Compile Include="Assets\Scripts\SelectionMoney.cs" />
+     <Compile Include="Assets\Scripts\SelectionOkay.cs" />
+     <Compile Include="Assets\Scripts\ShowComputer.cs" />
+     <Compile Include="Assets\Scripts\ShowLose.cs" />
+     <Compile Include="Assets\Scripts\SleepSystem.cs" />
+     <Compile Include="Assets\Scripts\SlotMachineColliders.cs" />
+     <Compile Include="Assets\Scripts\SoundController.cs" />
+     <Compile Include="Assets\Scripts\StartButton.cs" />
+     <Compile Include="Assets\Scripts\StartUp.cs" />
+     <Compile Include="Assets\Scripts\StartingBGM.cs" />
+     <Compile Include="Assets\Scripts\StoneController.cs" />
+     <Compile Include="Assets\Scripts\TeleportationTile.cs" />
+     <Compile Include="Assets\Scripts\TextBox1.cs" />
+     <Compile Include="Assets\Scripts\TextBoxBank.cs" />
+     <Compile Include="Assets\Scripts\Textbox.cs" />
+     <Compile Include="Assets\Scripts\TextboxBossOffice.cs" />
+     <Compile Include="Assets\Scripts\TextboxCC.cs" />
+     <Compile Include="Assets\Scripts\TextboxCasino.cs" />
+     <Compile Include="Assets\Scripts\TextboxOffice.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest1.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest10.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest2.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest3.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest4.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest5.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest6.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest8.cs" />
+     <Compile Include="Assets\Scripts\TextboxQuest9.cs" />
+     <Compile Include="Assets\Scripts\ToDungeon.cs" />
+     <Compile Include="Assets\Scripts\ToForest.cs" />
+     <Compile Include="Assets\Scripts\ToSouthQuests.cs" />
+     <Compile Include="Assets\Scripts\ToTown.cs" />
+     <Compile Include="Assets\Scripts\TownBGM.cs" />
+     <Compile Include="Assets\Scripts\TownToBank.cs" />
+     <Compile Include="Assets\Scripts\TownToCasino.cs" />
+     <Compile Include="Assets\Scripts\TownToHouse.cs" />
+     <Compile Include="Assets\Scripts\TownToOffice.cs" />
+     <Compile Include="Assets\Scripts\UpDownButtons4D.cs" />
+     <Compile Include="Assets\Scripts\WinningNumber.cs" />
+     <Compile Include="Assets\Scripts\lever.cs" />
+     <Compile Include="Assets\Scripts\scrolling.cs" />
+     <Compile Include="Assets\Scripts\scrolling2.cs" />
+     <Compile Include="Assets\Scripts\scrolling3.cs" />
+     <Compile Include="Assets\Scripts\textbox2.cs" />
+     <Compile Include="Assets\Scripts\textbox3.cs" />
+     <Compile Include="Assets\Scripts\textboxMoney.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+     <None Include="Assets\Tiled2Unity\Imported\Office.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\Casino.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\Forest.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\Room.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\Dungeon.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\Town.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\CounsellingCentre.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\BossOffice.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\New House Tile Map.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\Bank.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\License.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\DungeonRoom.tiled2unity.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
